@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1711045200 source:e:\naukaprogramowania\c++\go\ks oop pl\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1711045200 e:\naukaprogramowania\c++\go\ks oop pl\ksiazkaadresowa.h
+	<iostream>
+	"UzytkownikMenedzer.h"
+
+1711045200 e:\naukaprogramowania\c++\go\ks oop pl\uzytkownikmenedzer.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+	"MetodyPomocnicze.h"
+
+1710964583 e:\naukaprogramowania\c++\go\ks oop pl\uzytkownik.h
+	<iostream>
+
+1711043235 e:\naukaprogramowania\c++\go\ks oop pl\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1711039319 e:\naukaprogramowania\c++\go\ks oop pl\metodypomocnicze.h
+	<iostream>
+	<sstream>
+
+1711043973 source:e:\naukaprogramowania\c++\go\ks oop pl\main.cpp
+	<iostream>
+	"KsiazkaAdresowa.h"
+
+1711038989 source:e:\naukaprogramowania\c++\go\ks oop pl\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1711043218 source:e:\naukaprogramowania\c++\go\ks oop pl\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1710964583 source:e:\naukaprogramowania\c++\go\ks oop pl\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1711045252 source:e:\naukaprogramowania\c++\go\ks oop pl\uzytkownikmenedzer.cpp
+	"UzytkownikMenedzer.h"
+

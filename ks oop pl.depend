@@ -27,15 +27,16 @@
 	"Uzytkownik.h"
 	"MetodyPomocnicze.h"
 
-1711039319 e:\naukaprogramowania\c++\go\ks oop pl\metodypomocnicze.h
+1711394580 e:\naukaprogramowania\c++\go\ks oop pl\metodypomocnicze.h
 	<iostream>
 	<sstream>
+	<algorithm>
 
-1711043973 source:e:\naukaprogramowania\c++\go\ks oop pl\main.cpp
+1711046689 source:e:\naukaprogramowania\c++\go\ks oop pl\main.cpp
 	<iostream>
 	"KsiazkaAdresowa.h"
 
-1711038989 source:e:\naukaprogramowania\c++\go\ks oop pl\metodypomocnicze.cpp
+1711394279 source:e:\naukaprogramowania\c++\go\ks oop pl\metodypomocnicze.cpp
 	"MetodyPomocnicze.h"
 
 1711043218 source:e:\naukaprogramowania\c++\go\ks oop pl\plikzuzytkownikami.cpp
@@ -46,4 +47,22 @@
 
 1711045252 source:e:\naukaprogramowania\c++\go\ks oop pl\uzytkownikmenedzer.cpp
 	"UzytkownikMenedzer.h"
+
+1711393358 source:e:\naukaprogramowania\c++\go\ks oop pl\adresat.cpp
+	"Adresat.h"
+
+1711393238 e:\naukaprogramowania\c++\go\ks oop pl\adresat.h
+	<iostream>
+
+1711394799 source:e:\naukaprogramowania\c++\go\ks oop pl\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
+1711393980 e:\naukaprogramowania\c++\go\ks oop pl\plikzadresatami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"Adresat.h"
+	"MetodyPomocnicze.h"
 

@@ -5,20 +5,29 @@
 #include <vector>
 #include <fstream>
 #include <cstdlib>
+#include <string>
 
 #include "Uzytkownik.h"
 #include "Adresat.h"
 #include "MetodyPomocnicze.h"
 
+
+
 class PlikZAdresatami
 {
-    string nazwaPlikuZAdresatami;
-    string nazwaTymczasowegoPlikuZAdresatami;
 
+    const string nazwaPlikuZAdresatami = "Adresaci.txt";
+    const string nazwaTymczasowegoPlikuZAdresatami = "tempAdresaci.txt";
     int pobierzIdUzytkownikaZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami);
-    int wczytajAdresatowZalogowanegoUzytkownikaZPliku(vector <Adresat> &adresaci, int idZalogowanegoUzytkownika);
     Adresat pobierzDaneAdresata(string daneAdresataOddzielonePionowymiKreskami);
     int pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneOstaniegoAdresataWPliku);
+    string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
+
+
+public:
+    void dopiszAdresataDoPliku(Adresat adresat);
+    vector <Adresat> wczytajAdresatowZalogowanegoUzytkownikaZPliku(int idZalogowanegoUzytkownika);
+    int wczytajIdOstatniegoUzytkownikaZPliku(int idZalogowanegoUZytkownika);
 
 };
 

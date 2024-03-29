@@ -1,0 +1,10 @@
+1|1|Lol|Lol|lol|lol|lol|
+2|1|Elo|Elo|elo |l|l|
+3|1|Elo|Elo|elo|elo|elo|
+4|1|Lol|Lol|lol|lol|lol|
+5|6|Ehe|Er|er|er|er|
+6|6|E|E|e|e|e|
+7|6|L|L|l|l|l|
+8|6|L|L|l|l|l|
+9|1|Lol|Lol|lol|lol|lol|
+10|1|E|E|e|e|e|

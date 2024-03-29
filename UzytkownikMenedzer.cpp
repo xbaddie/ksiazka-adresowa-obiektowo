@@ -129,3 +129,8 @@ void UzytkownikMenedzer::wylogujUzytkownika()
     cout << endl << "wylogowano" << endl;
     //adresaci.clear();
 }
+
+int UzytkownikMenedzer::pobierzIdZalogowanegoUzytkownika()
+{
+    return idZalogowanegoUzytkownika;
+}

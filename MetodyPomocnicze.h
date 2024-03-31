@@ -17,6 +17,7 @@ public:
     static string pobierzLiczbe(string tekst, int pozycjaZnaku);
     static int konwersjaStringNaInt(string liczba);
     static bool czyPlikJestPusty(fstream &plikTekstowy);
+    static char wczytajZnak();
 };
 
 #endif

@@ -14,6 +14,10 @@ class AdresatMenedzer
     Adresat podajDaneNowegoAdresata();
     PlikZAdresatami plikZAdresatami;
     void wyswietlDaneAdresata(Adresat adresat);
+    void wyswietlIloscWyszukanychAdresatow(int iloscAdresatow);
+    int podajIdWybranegoAdresata();
+    void usunWybranegoAdresataWPliku(int idUsuwanegoAdresata);
+    int pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami);
 
 
 public:
@@ -24,6 +28,9 @@ public:
     };
     int dodajAdresata(int ID_ZALOGOWANEGO_UZYTKOWNIKA);
     void wyswietlWszystkichAdresatow();
+    void wyszukajAdresatowPoImieniu();
+    void wyszukajAdresatowPoNazwisku();
+    int usunAdresata();
 
 };
 #endif

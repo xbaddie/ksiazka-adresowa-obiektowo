@@ -19,11 +19,15 @@ class PlikZAdresatami
     const string NAZWA_PLIKU_Z_ADRESATAMI;
     const string NAZWA_TYMCZASOWEGO_PLIKU_Z_ADRESATAMI = "tempAdresaci.txt";
     int idOstatniegoAdresata;
+    int idUsuwanegoAdresata;
     int pobierzIdUzytkownikaZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami);
     Adresat pobierzDaneAdresata(string daneAdresataOddzielonePionowymiKreskami);
     int pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneOstaniegoAdresataWPliku);
     string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
-
+    void usunPlik(string nazwaPlikuZRozszerzeniem);
+    void zmienNazwePliku(string staraNazwa, string nowaNazwa);
+    int pobierzZPlikuIdOstatniegoAdresata();
+    int podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(int idUsuwanegoAdresata);
 
 public:
     PlikZAdresatami(string nazwaPlikuZAdresatami) : NAZWA_PLIKU_Z_ADRESATAMI(nazwaPlikuZAdresatami)
@@ -34,6 +38,8 @@ public:
     vector <Adresat> wczytajAdresatowZalogowanegoUzytkownikaZPliku(int idZalogowanegoUzytkownika);
     int wczytajIdOstatniegoUzytkownikaZPliku(int idZalogowanegoUZytkownika);
     int pobierzIdOstatniegoAdresata();
+    int usunWybranegoAdresataWPliku(int idUsuwanegoAdresata);
+
 
 };
 

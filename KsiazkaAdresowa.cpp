@@ -86,3 +86,18 @@ char KsiazkaAdresowa::wybierzOpcjeZMenuUzytkownika()
 
     return wybor;
 }
+
+void KsiazkaAdresowa::wyszukajAdresatowPoImieniu()
+{
+    adresatMenedzer->wyszukajAdresatowPoImieniu();
+}
+
+void KsiazkaAdresowa::wyszukajAdresatowPoNazwisku()
+{
+    adresatMenedzer->wyszukajAdresatowPoNazwisku();
+}
+
+void KsiazkaAdresowa::usunAdresata()
+{
+    adresatMenedzer->usunAdresata();
+}

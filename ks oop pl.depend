@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1712169336 source:e:\naukaprogramowania\c++\go\ks oop pl\ksiazkaadresowa.cpp
+1712248601 source:e:\naukaprogramowania\c++\go\ks oop pl\ksiazkaadresowa.cpp
 	"KsiazkaAdresowa.h"
 
-1712167734 e:\naukaprogramowania\c++\go\ks oop pl\ksiazkaadresowa.h
+1712250625 e:\naukaprogramowania\c++\go\ks oop pl\ksiazkaadresowa.h
 	<iostream>
 	"UzytkownikMenedzer.h"
 	"AdresatMenedzer.h"
@@ -20,13 +20,14 @@
 1710968183 e:\naukaprogramowania\c++\go\ks oop pl\uzytkownik.h
 	<iostream>
 
-1712172426 e:\naukaprogramowania\c++\go\ks oop pl\plikzuzytkownikami.h
+1712258304 e:\naukaprogramowania\c++\go\ks oop pl\plikzuzytkownikami.h
 	<iostream>
 	<vector>
 	<fstream>
 	<cstdlib>
 	"Uzytkownik.h"
 	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
 
 1712172426 e:\naukaprogramowania\c++\go\ks oop pl\metodypomocnicze.h
 	<iostream>
@@ -34,14 +35,14 @@
 	<algorithm>
 	<fstream>
 
-1712167715 source:e:\naukaprogramowania\c++\go\ks oop pl\main.cpp
+1712248377 source:e:\naukaprogramowania\c++\go\ks oop pl\main.cpp
 	<iostream>
 	"KsiazkaAdresowa.h"
 
-1712166877 source:e:\naukaprogramowania\c++\go\ks oop pl\metodypomocnicze.cpp
+1712172426 source:e:\naukaprogramowania\c++\go\ks oop pl\metodypomocnicze.cpp
 	"MetodyPomocnicze.h"
 
-1712167174 source:e:\naukaprogramowania\c++\go\ks oop pl\plikzuzytkownikami.cpp
+1712259633 source:e:\naukaprogramowania\c++\go\ks oop pl\plikzuzytkownikami.cpp
 	"PlikZUzytkownikami.h"
 
 1710968183 source:e:\naukaprogramowania\c++\go\ks oop pl\uzytkownik.cpp
@@ -56,10 +57,10 @@
 1711885084 e:\naukaprogramowania\c++\go\ks oop pl\adresat.h
 	<iostream>
 
-1712169656 source:e:\naukaprogramowania\c++\go\ks oop pl\plikzadresatami.cpp
+1712259595 source:e:\naukaprogramowania\c++\go\ks oop pl\plikzadresatami.cpp
 	"PlikZAdresatami.h"
 
-1712169641 e:\naukaprogramowania\c++\go\ks oop pl\plikzadresatami.h
+1712259082 e:\naukaprogramowania\c++\go\ks oop pl\plikzadresatami.h
 	<iostream>
 	<vector>
 	<fstream>
@@ -68,13 +69,21 @@
 	"Uzytkownik.h"
 	"Adresat.h"
 	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
 
-1712167174 source:e:\naukaprogramowania\c++\go\ks oop pl\adresatmenedzer.cpp
+1712252220 source:e:\naukaprogramowania\c++\go\ks oop pl\adresatmenedzer.cpp
 	"AdresatMenedzer.h"
 
-1712166773 e:\naukaprogramowania\c++\go\ks oop pl\adresatmenedzer.h
+1712248601 e:\naukaprogramowania\c++\go\ks oop pl\adresatmenedzer.h
 	"UzytkownikMenedzer.h"
 	"MetodyPomocnicze.h"
 	"Adresat.h"
 	"PlikZAdresatami.h"
+
+1712259486 source:e:\naukaprogramowania\c++\go\ks oop pl\pliktekstowy.cpp
+	"PlikTekstowy.h"
+
+1712260010 e:\naukaprogramowania\c++\go\ks oop pl\pliktekstowy.h
+	<iostream>
+	<fstream>
 

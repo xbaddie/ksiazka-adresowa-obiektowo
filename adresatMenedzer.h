@@ -18,6 +18,7 @@ class AdresatMenedzer
     int podajIdWybranegoAdresata();
     void usunWybranegoAdresataWPliku(int idUsuwanegoAdresata);
     int pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami);
+    char wybierzOpcjeZMenuEdycja();
 
 
 public:
@@ -31,6 +32,7 @@ public:
     void wyszukajAdresatowPoImieniu();
     void wyszukajAdresatowPoNazwisku();
     int usunAdresata();
+    void edytujAdresata();
 
 };
 #endif

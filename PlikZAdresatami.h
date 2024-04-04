@@ -10,13 +10,12 @@
 #include "Uzytkownik.h"
 #include "Adresat.h"
 #include "MetodyPomocnicze.h"
+#include "PlikTekstowy.h"
 
 
 
-
-class PlikZAdresatami
+class PlikZAdresatami : public PlikTekstowy
 {
-    const string NAZWA_PLIKU_Z_ADRESATAMI;
     const string NAZWA_TYMCZASOWEGO_PLIKU_Z_ADRESATAMI = "tempAdresaci.txt";
     int idOstatniegoAdresata;
     int idUsuwanegoAdresata;
@@ -29,8 +28,9 @@ class PlikZAdresatami
     int pobierzZPlikuIdOstatniegoAdresata();
     int podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(int idUsuwanegoAdresata);
 
+
 public:
-    PlikZAdresatami(string nazwaPlikuZAdresatami) : NAZWA_PLIKU_Z_ADRESATAMI(nazwaPlikuZAdresatami)
+    PlikZAdresatami(string NAZWA_PLIKU_Z_ADRESATAMI) : PlikTekstowy(NAZWA_PLIKU_Z_ADRESATAMI)
     {
         idOstatniegoAdresata = 0;
     };
@@ -39,6 +39,7 @@ public:
     int wczytajIdOstatniegoUzytkownikaZPliku(int idZalogowanegoUZytkownika);
     int pobierzIdOstatniegoAdresata();
     int usunWybranegoAdresataWPliku(int idUsuwanegoAdresata);
+    void zaktualizujDaneWybranegoAdresataWPliku(Adresat adresat);
 
 
 };

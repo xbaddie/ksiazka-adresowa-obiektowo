@@ -20,7 +20,7 @@
 1710968183 e:\naukaprogramowania\c++\go\ks oop pl\uzytkownik.h
 	<iostream>
 
-1712167174 e:\naukaprogramowania\c++\go\ks oop pl\plikzuzytkownikami.h
+1712172426 e:\naukaprogramowania\c++\go\ks oop pl\plikzuzytkownikami.h
 	<iostream>
 	<vector>
 	<fstream>
@@ -28,7 +28,7 @@
 	"Uzytkownik.h"
 	"MetodyPomocnicze.h"
 
-1712166877 e:\naukaprogramowania\c++\go\ks oop pl\metodypomocnicze.h
+1712172426 e:\naukaprogramowania\c++\go\ks oop pl\metodypomocnicze.h
 	<iostream>
 	<sstream>
 	<algorithm>

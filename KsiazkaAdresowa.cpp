@@ -10,7 +10,7 @@ void KsiazkaAdresowa::wypiszWszystkichUzytkownikow()
     uzytkownikMenedzer.wypiszWszystkichUzytkownikow();
 }
 
-int KsiazkaAdresowa::logowanieUzytkownika()
+void KsiazkaAdresowa::logowanieUzytkownika()
 {
     uzytkownikMenedzer.logowanieUzytkownika();
     if (uzytkownikMenedzer.czyUzytkownikJestZalogowany())
@@ -33,7 +33,7 @@ void KsiazkaAdresowa::wylogujUzytkownika()
 
 void KsiazkaAdresowa::dodajAdresata()
 {
-    adresatMenedzer->dodajAdresata(uzytkownikMenedzer.pobierzIdZalogowanegoUzytkownika());
+    adresatMenedzer->dodajAdresata();
 }
 
 

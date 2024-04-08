@@ -30,7 +30,7 @@ public:
     char wybierzOpcjeZMenuUzytkownika();
     void wypiszWszystkichUzytkownikow();
     bool czyUzytkownikJestZalogowany();
-    int logowanieUzytkownika();
+    void logowanieUzytkownika();
     void zmianaHaslaZalogowanegoUzytkownika();
     void wylogujUzytkownika();
     void dodajAdresata();

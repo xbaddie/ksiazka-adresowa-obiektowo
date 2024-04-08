@@ -7,4 +7,8 @@
 31|1|Qwe|Qwe|qwe|qwe|qwe|
 32|1|E|E|e|e|e|
 33|1|Udao sie|Qwe|qwe|qwe|last|
-34|1|Elo|Qwe|qwe|qwe|qwe|
+34|1|Elo|Tak jest|qwe|qwe|qwe|
+35|1|Elo|Elo|elo|elo|elo|
+36|1|Zxc|Zxc|zxc|zxc|zxc|
+37|1|Cvb|Cvb|cvb|cvb|cvb|
+38|11|Werw|Wer|wer|wer|wer|

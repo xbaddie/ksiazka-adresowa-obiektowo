@@ -27,7 +27,7 @@ public:
     {
         adresaci = plikZAdresatami.wczytajAdresatowZalogowanegoUzytkownikaZPliku(ID_ZALOGOWANEGO_UZYTKOWNIKA);
     };
-    int dodajAdresata(int ID_ZALOGOWANEGO_UZYTKOWNIKA);
+    int dodajAdresata();
     void wyswietlWszystkichAdresatow();
     void wyszukajAdresatowPoImieniu();
     void wyszukajAdresatowPoNazwisku();
